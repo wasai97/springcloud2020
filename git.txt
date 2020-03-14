@@ -1,0 +1,13 @@
+解决方案如下：
+
+1.切换到自己项目所在的目录，右键选择GIT BASH Here，Idea中可使用Alt+F12
+
+2.在terminl窗口中依次输入命令：
+
+git pull
+
+git pull origin master
+
+git pull origin master --allow-unrelated-histories
+
+3.在idea中重新push自己的项目，成功！！！
