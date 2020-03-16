@@ -37,6 +37,10 @@ public class PaymentController {
         }else {
             return new CommonResult(444,"没有对应记录，查询id"+id,null);
         }
+    }
 
+    @GetMapping("/payment/lb")
+    public String testMyLoadBalance(){
+        return serverPort;
     }
 }
