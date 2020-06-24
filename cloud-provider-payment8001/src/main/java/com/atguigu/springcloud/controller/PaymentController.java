@@ -20,6 +20,10 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "hi llllllllllllllllllllllll";
+    }
 
     @PostMapping("/payment/create")
     public CommonResult create(@RequestBody Payment payment){
